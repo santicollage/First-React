@@ -1,0 +1,53 @@
+.TodoItem {
+  width: 70%;
+  background-color: rgb(222, 234, 235);
+  margin: 15px 0;
+  padding: 30px;
+  border-radius: 20px;
+  list-style: none;
+  position: relative;
+  box-shadow: 0 5px 5px #131a20;
+}
+.TodoItem-p {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-weight: 600;
+  padding: 0 20px;
+  margin: 0;
+}
+.TodoItem-p--complete {
+  text-decoration: line-through;
+}
+
+.Icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+.Icon-check {
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  background-image: url(./Icons/check-circle.svg);
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.Icon-check:hover {
+  transform: scale(1.2) translateY(-50%);
+}
+.Icon-check--active {
+  background-image: url(./Icons/check-circle-solid.svg);
+}
+.Icon-delete {
+  top: 5px;
+  right: 5px;
+  background-image: url(./Icons/xmark-circle.svg);
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.Icon-delete:hover {
+  background-image: url(./Icons/xmark-circle-solid.svg);
+  transform: scale(1.2);
+}

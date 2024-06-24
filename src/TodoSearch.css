@@ -1,0 +1,10 @@
+.TodoSearch {
+  width: 80%;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 1.2rem;
+  border: none;
+}
+.TodoSearch:focus {
+  outline: none;
+}
