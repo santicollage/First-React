@@ -1,9 +1,10 @@
 .TodoSearch {
-  width: 80%;
+  width: 60%;
   border-radius: 20px;
   padding: 15px;
   font-size: 1.2rem;
   border: none;
+  text-align: center;
 }
 .TodoSearch:focus {
   outline: none;

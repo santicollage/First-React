@@ -24,30 +24,32 @@
   width: 30px;
   height: 30px;
 }
+.Icon .svg {
+  fill: rgb(69, 69, 69);
+}
 .Icon-check {
   top: 50%;
   left: 10px;
   transform: translateY(-50%);
-  background-image: url(./Icons/check-circle.svg);
-  background-size: cover;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
 }
-.Icon-check:hover {
-  transform: scale(1.2) translateY(-50%);
+.Icon-check .svg {
+  transition: all 0.3s ease-in-out;
 }
-.Icon-check--active {
-  background-image: url(./Icons/check-circle-solid.svg);
+.Icon-check--active .svg,
+.Icon-check .svg:hover {
+  fill: rgb(0, 180, 117);
+  transform: scale(1.1)
 }
 .Icon-delete {
   top: 5px;
   right: 5px;
-  background-image: url(./Icons/xmark-circle.svg);
-  background-size: cover;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
 }
-.Icon-delete:hover {
-  background-image: url(./Icons/xmark-circle-solid.svg);
-  transform: scale(1.2);
+.Icon-delete .svg {
+  transition: all 0.3s ease-in-out;
+}
+.Icon-delete .svg:hover {
+  fill: rgb(188, 35, 0);
+  transform: scale(1.1);
 }
