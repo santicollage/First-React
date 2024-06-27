@@ -1,0 +1,22 @@
+.loading-container {
+  width: 70%;
+  height: 80px;
+  margin: 15px 0;
+  background-color: aqua;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(222, 234, 235), rgb(142, 197, 202));
+  background-size: 200% 200%;
+  animation: loading 2s ease-in-out infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

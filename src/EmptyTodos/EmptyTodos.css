@@ -1,0 +1,9 @@
+.first-message {
+  width: 70%;
+  background-color: rgb(222, 234, 235);
+  margin: 15px 0;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px #131a20;
+  color: #131a20;
+}
