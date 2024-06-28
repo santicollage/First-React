@@ -11,9 +11,18 @@
   background-image: url(./plus-circle.svg);
   background-size: cover;
   cursor: pointer;
+  z-index: 1;
   transition: all 0.4s ease-in-out;
 }
 .CreateTodo-button:hover {
   background-image: url(./plus-circle-solid.svg);
-  transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+.CreateTodo-button-active:hover {
+  background-image: url(./plus-circle-solid.svg);
+  transform: scale(1.1) rotate(135deg);
+}
+.CreateTodo-button-active {
+  transform: rotate(135deg);
 }

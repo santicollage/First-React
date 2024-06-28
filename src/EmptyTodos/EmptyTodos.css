@@ -1,5 +1,8 @@
 .first-message {
   width: 70%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
   background-color: rgb(222, 234, 235);
   margin: 15px 0;
   padding: 30px;
