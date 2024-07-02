@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.38702f1e.css",
+    "main.js": "./static/js/main.45171a2a.js",
+    "index.html": "./index.html",
+    "static/media/xmark-circle-solid.svg": "./static/media/xmark-circle-solid.ac8b033adff9170d0eae9504eca242c3.svg",
+    "static/media/plus-circle-solid.svg": "./static/media/plus-circle-solid.97acdf12c36cc8b56ae7.svg",
+    "static/media/check-circle-solid.svg": "./static/media/check-circle-solid.a47545ced8b0ebc9663d0febbf38451b.svg",
+    "static/media/plus-circle.svg": "./static/media/plus-circle.182a0aa7e9a093a3c977.svg",
+    "main.38702f1e.css.map": "./static/css/main.38702f1e.css.map",
+    "main.45171a2a.js.map": "./static/js/main.45171a2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38702f1e.css",
+    "static/js/main.45171a2a.js"
+  ]
+}
