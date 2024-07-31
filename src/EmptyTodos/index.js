@@ -1,8 +1,8 @@
 import './EmptyTodos.css'
 
-function EmptyTodos() {
+function EmptyTodos({message}) {
   return (
-    <p className='first-message'>Crea tu primer To Do</p>
+    <p className='first-message'>{message}</p>
   );
 }
 
