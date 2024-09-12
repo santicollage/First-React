@@ -26,15 +26,13 @@
 }
 .Icon .svg {
   fill: rgb(69, 69, 69);
+  transition: all 0.3s ease-in-out;
 }
 .Icon-check {
   top: 50%;
   left: 10px;
   transform: translateY(-50%);
   cursor: pointer;
-}
-.Icon-check .svg {
-  transition: all 0.3s ease-in-out;
 }
 .Icon-check--active .svg,
 .Icon-check .svg:hover {
@@ -46,10 +44,16 @@
   right: 5px;
   cursor: pointer;
 }
-.Icon-delete .svg {
-  transition: all 0.3s ease-in-out;
-}
 .Icon-delete .svg:hover {
   fill: rgb(188, 35, 0);
+  transform: scale(1.1);
+}
+.Icon-edit {
+  bottom: 5px;
+  right: 2px;
+  cursor: pointer;
+}
+.Icon-edit .svg:hover {
+  fill: rgb(0, 157, 188);
   transform: scale(1.1);
 }
